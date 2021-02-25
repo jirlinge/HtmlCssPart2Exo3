@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulaire livraison</h1>
+    <form>
+    <fieldset class="identité">
+        <legend>votre identité</legend>
+        <ol>
+            <li><label>nom : </label><input type="text" id="name" placeholder="Nom" name="name" required
+            minlength="4" maxlength="8" size="15"></li>
+            <li><label>Prenom : </label><input type="text" id="firstName" placeholder="Prenom" name="firstName" required
+            minlength="4" maxlength="8" size="15"></li>
+            <li><label>Adresse mail : </label><input type="text" id="mail" placeholder="Adresse mail" name="mail" required
+            minlength="4" maxlength="8" size="15"></li>
+       </ol>
+    </fieldset>
+    <fieldset class="adresseLivraison">
+        <legend>adresse de livraison</legend>
+        <ol>
+            <li><label class="adresseP">adresse postal  :</label><input type="text" id="adresse" name="adresse" required
+            minlength="10" maxlength="10" size="15"></li>
+            <li><label>code postal : </label><input type="text" id="codePostal" placeholder="Code postal" name="codePostal" required
+            minlength="4" maxlength="8" size="15"></li>
+            <li><label>ville : </label><input type="text" id="ville" placeholder="Ville" name="ville" required
+            minlength="4" maxlength="8" size="15"></li>
+       </ol>
+    </fieldset>
+    <fieldset class="infoPaiement">
+        <legend>information de reglement</legend>
+        <ol>
+            <li>
+                <label>type de carte bancaire</label>
+                <ul class="checkbox" >        
+                    <li><input type="radio" id="Visa" name="checkbox" value="Visa"
+                            checked>
+                    <label for="huey">Visa</label></li>
+                    <li><input type="radio" id="MasterC" name="checkbox" value="Master carte">
+                    <label for="dewey">Master carte</label></li>
+                </ul>
+            </li>
+            
+        
+            
+            <li><label>numero de carte : </label><input type="text" id="numCarte" placeholder="Numero de carte" name="numCarte" required
+            minlength="4" maxlength="8" size="15"></li>
+            <li><label>code de sécurité : </label><input type="text" id="codeSecu" placeholder="Code de securite" name="codeSecu" required
+            minlength="4" maxlength="8" size="15"></li>
+            <li><label>nom du titulaire : </label><input type="text" id="nameCarte" placeholder="Nom du titulaire" name="nameCarte" required
+            minlength="4" maxlength="8" size="15"></li>
+       </ol>
+    </fieldset>
+    <input class="bouton"
+       type="button"
+       value="j'achète !">
+</form>
+</body>
+</html>

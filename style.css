@@ -1,0 +1,38 @@
+.identité{
+width: 100%;
+background-color:#2574a9 ;
+}
+.identité legend{
+    background-color:#2574a9 ;
+}
+
+.adresseLivraison{
+width: 100%;
+background-color:#9a12b3 ;
+}
+
+.adresseLivraison legend{
+    background-color:#9a12b3 ;
+}
+
+.infoPaiement{
+width: 100%;
+background-color:#db0a5b ;
+}
+
+.infoPaiement legend{
+    background-color: #db0a5b;
+}
+
+#adresse{
+
+height:50px;
+}
+
+.adresseP{
+    height: 50px;
+
+}
+ .checkbox{
+    list-style-type: none;
+ }
